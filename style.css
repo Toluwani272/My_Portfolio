@@ -1,0 +1,721 @@
+:root{
+    --shadow-color:#5a505033;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem; /*adds spacing inside the header*/
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    box-shadow: 0 4px 6px var(--shadow-color);
+}
+body{
+    margin: 0%;
+    border: 0;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Jersey 15", serif;
+}
+.orange-text{
+    color: var(--primary-orange);
+}
+/*styling for our nav links*/
+.nav-links{
+    display: flex;
+    gap: 20px;
+    color:  green;
+
+}
+.nav-links a {
+    text-decoration: none;
+    color: var(--primary-white);
+    transition: color 0.3s; 
+}
+ul{
+    list-style-type: none ;
+
+}
+
+.p{
+    text-align: left;
+}
+/*hover effect for the links*/
+.nav-links a:hover {
+    color: var(--primary-orange)
+}
+.image{
+    height: 5rem;
+    width:5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid green;
+    
+}
+.white{
+    background-color: white;
+    margin-top: 0rem;
+    height: 5rem;
+   box-shadow: 1.5px 1.5px 1.5px #808080;
+}
+.bold{
+    font-family: sans-serif;
+    margin-left: -1rem;
+}
+.bold2{
+    text-align: left;
+    margin-right: 52rem;
+    color: grey;
+    margin-top: 3.7rem;
+    margin-left: -3.4rem;
+    margin-bottom: 1rem;
+}
+.web{
+    height: 3rem;
+    width: 18rem;
+    border-radius: 50px;
+    background-color: #e6f4ea;
+    margin-top: 2.7rem;
+}
+.img{
+    margin-left: -13rem;
+    margin-top: 8px;
+}
+.para{
+    margin-top: -1.7rem;
+    margin-right: -24px;
+}
+.h1{
+    margin-top: 3rem;
+    font-size: 50px;
+}
+.pa{
+    color: grey;
+    font-size: 25px;
+}
+.view{
+     display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+}
+.view1{
+    height: 5rem;
+    width: 12rem;
+    background-color: #22c55e;
+    margin-left: 450px;
+    margin-top: 1rem;
+    border-radius: 9%;
+}
+.view1:hover{
+    background-color: #16a34a;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.my{
+    margin-top: 29px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: -3.8rem;
+}
+.arrow{
+    margin-top: -9rem;
+    margin-right: -7rem;
+    margin-bottom: 0.7rem;
+}
+.git{
+    margin-left: -6.4rem;
+    margin-top: 0.5rem;
+}
+.view2{
+    height: 3rem;
+    margin-left: -28rem;
+    margin-top: 2rem;
+    width: 9rem;
+    cursor: pointer;
+   background-color: white;
+   border: solid grey 0.3px;
+   border-radius: 9%;
+}
+.hub{
+    margin-right: -1.4rem;
+    margin-top: -1.6rem;
+}
+
+
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: #6b7280;
+}
+
+.stat {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+}
+
+.divider {
+  width: 1px;
+  height: 3rem;
+  background-color: #e5e7eb;
+  margin-top: 2rem;
+}
+.About-us{
+    margin-top: 2rem;
+    margin-left: 11rem;
+    height: 38rem;
+    width:60rem;
+    background-color: white;
+    padding: 0.7rem;   
+    box-shadow:4px 7px 8px var(--shadow-color);
+}
+.h1-1{
+    font-size: 50px;
+    margin-left: 23rem;
+}
+.image2{
+    height: 14rem;
+    width: 14rem;
+    box-shadow: 4px 7px 8px var(--shadow-color);
+    border-radius: 9%;
+    margin-left: 2rem;
+}
+.A{
+    color: #22c55e;
+}
+.fade-in.delay {
+  animation-delay: 0.6s;
+  height: 12rem;
+  margin-top: 4rem;
+  margin-left: 11rem;
+  width: 60rem;
+  box-shadow: 4px 7px 8px var(--shadow-color);
+  background-color: white;
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 4rem;
+  gap: 15px;
+}
+
+.skill span {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bar {
+  background: #eee;
+  height: 8px;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 22rem;
+}
+.is{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.bar div {
+  height: 100%;
+  background: #22c55e;
+  border-radius: 8px;
+}
+
+.form{
+    height: 30rem;
+    width: 60rem;
+    background-color: white;
+    margin-left: 11rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 4rem;
+    box-shadow: 4px 7px 8px var(--shadow-color);
+    margin-bottom: 3rem;
+}
+.mainform{
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 30rem;
+    margin-top: -34rem;
+}
+.contact{
+    margin-left: -3rem;
+}
+#contact{
+    padding: 5rem;
+}
+#contact h2{
+    font-size: 3rem;
+    color: var(--primary-black);
+    font-family: "Jersey 15", serif;
+    text-align: center;
+    margin-top: 2rem;
+}
+.cta-btn{
+    width: 18rem;
+    height: 3rem;
+    background-color: #16a34a;
+    border-radius: 9%;
+    margin-left: 8px;
+    border: none;
+}
+.cta-btn:hover{
+    background-color: #22c55e;
+    transition: 0.9s;
+}
+/*Contact Form*/
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.contact-form input{
+    background-color: #e6f4ea;
+    border-radius: 0.5rem;
+    padding: 5px;
+}
+.contact-form input:focus{
+    border: 2px solid #e6f4ea;
+}
+.contact-form textarea{
+    background-color: #e6f4ea;
+    border-radius: 0.5rem;
+    padding: 5px;
+}
+.divider1{
+     width: 1px;
+    height: 27rem;
+    padding-top: 3rem;
+    background-color: black;
+    margin-top: 2rem;
+    margin-left: 30rem;
+}
+.name{
+    width: 18rem;
+}
+.faq-section h2{
+    font-size: 3rem; 
+    color: var(--primary-black);
+    font-family: "Jersey 15", serif;
+    text-align: center;
+    padding-top: 2rem; 
+}
+.love{
+    font-size: 70px;
+    margin-left: -27rem;
+    padding: 3rem;
+    margin-top: -4rem;
+}
+
+.href{
+    text-decoration: none;
+    color: black;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.contact-form input{
+    background-color: var(--accent-beige);
+    border-radius: 0.5rem;
+    padding: 5px;
+}
+.contact-form input:focus{
+    border: 2px solid var(--accent-blue);
+}
+.contact-form textarea{
+    background-color: var(--accent-beige);
+    border-radius: 0.5rem;
+    padding: 5px;
+}
+
+.faq-section{
+    border-radius: 10px;
+    height: 40rem;
+    width: 60rem;
+    background-color: white;
+    margin-left: -30rem;
+    box-shadow: 4px 7px 8px var(--shadow-color);
+}
+.f{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 30px;
+}
+
+
+.faq-title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333
+}
+
+.faq-item{
+    border-bottom: 1px solid #ddd;
+    padding:10px;
+}
+
+.faq-question{
+    background:none;
+    width:100%;
+    border: none;
+    text-align: left;
+    font-size: 1.2rem;
+    color:black;
+    cursor:pointer;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+.faq-question:focus{
+    outline: none;
+}
+
+.icon{
+    font-size: 1.5rem;
+    color:#16a34a;
+}
+
+
+.faq-answer{
+    padding: 10px ;
+    font-size: 1rem;
+    color: #22c55e;
+    display: none;
+}
+
+.faq-question .active.icon{
+    content: "_";
+}
+.who{
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    padding: 1rem;
+    margin: 0;
+    margin-left: -8rem;
+}
+
+footer a{
+    color: var(--hover-orange);
+}
+.follow{
+    margin-left: 2rem;
+}
+.contacth2{
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ilori{
+     display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem; 
+    margin-left: -19rem;
+}
+
+@media screen and (max-width:480px){
+    .bold{
+        margin-left: 3px;
+    }
+    .bold2{
+        margin-left: -29px;
+    }
+    body{
+        margin: 0;
+        border: 0;
+        overflow-x: hidden;
+    }
+    .nav-links{
+    display: grid;
+    margin-left: -43rem;
+    gap: 10px;
+    color:  green;
+    }
+    .pa{
+    color: grey;
+    font-size: 25px;
+    padding: 1rem;
+    }
+    .view1{
+    height: 5rem;
+    width: 12rem;
+    background-color: #22c55e;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 9%;
+    }
+    .view2{
+    height: 3rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width: 9rem;
+    cursor: pointer;
+    background-color: white;
+    border: solid grey 0.3px;
+    border-radius: 9%;
+}
+.About-us{
+    margin-top: 2rem;
+    margin-left: 11rem;
+    height: 38rem;
+    margin-left: 3.3rem;
+    width:20rem;
+    background-color: white;
+    padding: 0.7rem;   
+    box-shadow:4px 7px 8px var(--shadow-color);
+}
+    .h1-1{
+    font-size: 50px;
+    text-align: center;
+    margin-left: -3rem;
+    }
+    .skills {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    margin-left: 2rem;
+    width: 28rem;
+    padding-right: 2rem;
+    gap: 15px;
+    }
+    .fade-in.delay {
+    animation-delay: 0.6s;
+    height: 15rem;
+    margin-top: 4rem;
+    margin-left: 3.5rem;
+    width: 21rem;
+    box-shadow: 4px 7px 8px var(--shadow-color);
+    background-color: white;
+}
+    .bar {
+    background: #eee;
+    height: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 15rem;
+    }
+    .form{
+    height: 45rem;
+    width: 20rem;
+    background-color: white;
+    padding: 1rem;
+    margin-left: 3.3rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 4rem;
+    box-shadow: 4px 7px 8px var(--shadow-color);
+    margin-bottom: 3rem;
+}
+.love{
+    font-size: 40px;
+    margin-right: 12rem;
+    margin-top:-7rem;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -3rem;
+    margin-left: -35rem;
+}
+.contacth2{
+   margin-left: -34rem;
+   padding-top: 17rem;
+   margin-bottom: 5rem;
+}
+.divider1{
+     width: 0px;
+    height: 0rem;
+    padding-top: 3rem;
+    background-color: black;
+    margin-top: 2rem;
+    margin-left: 30rem;
+}
+.mainform{
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 30rem;
+    margin-top: -7rem;
+}
+.faq-section{
+    border-radius: 10px;
+    height: 49rem;
+    width: 22rem;
+    background-color: white;
+    margin-left: -31rem;
+    box-shadow: 4px 7px 8px var(--shadow-color);
+}
+.ilori{
+    margin-right: 14rem;
+    gap: -8px;
+}
+.follow{
+    margin-left: -19rem;
+}
+.one{
+    margin-left: -21rem;
+}
+}
+
+@media screen and (max-width:380px){
+    .image{
+    height: 5rem;
+    width:5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -29px;
+    border: 4px solid green;
+    
+    }
+    .nav-links{
+    display: grid;
+    margin-left: -45.3rem;
+    gap: 10px;
+    color:  green;
+    }
+     .pa{
+    color: grey;
+    font-size: 22px;
+    padding: 0.2rem;
+    }
+     .view1{
+    height: 4rem;
+    width: 12rem;
+    background-color: #22c55e;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    border-radius: 9%;
+    }
+    .view2{
+    height: 4rem;
+    margin-left: 0.rem;
+    margin-top: 1.1rem;
+    width: 8rem;
+    cursor: pointer;
+    background-color: white;
+    border: solid grey 0.3px;
+    border-radius: 9%;
+}
+.my{
+    margin-top: 25px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: -3.8rem;
+    font-size: 15px;
+}
+.view{
+     display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    margin-left: -4rem;
+}
+.hub{
+    margin-right: -1.4rem;
+    margin-bottom: 0.7rem;
+}
+.git{
+    margin-right: 1px;
+    margin-bottom: 0.2rem;
+}
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #6b7280;
+}
+.About-us{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: 38rem;
+    width: 18rem;
+    background-color: white;
+    padding: 0.7rem;   
+    box-shadow:4px 7px 8px var(--shadow-color);
+}
+.image2{
+    height: 12rem;
+    width: 10rem;
+    box-shadow: 4px 7px 8px var(--shadow-color);
+    border-radius: 9%;
+    margin-left: 1rem;
+}
+.fade-in.delay {
+    animation-delay: 0.6s;
+    height: 15rem;
+    margin-top: 4rem;
+    margin-left: 2.4rem;
+    width: 19rem;
+    box-shadow: 4px 7px 8px var(--shadow-color);
+    background-color: white;
+}
+ .form{
+    height: 54rem;
+    width: 17rem;
+    background-color: white;
+    padding: 1rem;
+    margin-left: 2.4rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 4rem;
+    box-shadow: 4px 7px 8px var(--shadow-color);
+    margin-bottom: 3rem;
+}
+.mainform{
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 29rem;
+    margin-top: -6.2rem;
+}
+.love{
+    font-size: 40px;
+    margin-right: 22rem;
+    margin-top:-7rem;
+}
+.contacth2{
+   margin-left: -34.5rem;
+   padding-top: 23rem;
+   margin-bottom: 5rem;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -3rem;
+    margin-left: rem;
+}
+.faq-section{
+    border-radius: 10px;
+    height: 49rem;
+    width: 19rem;
+    background-color: white;
+    margin-left: -31rem;
+    box-shadow: 4px 7px 8px var(--shadow-color);
+}
+
+}
+
